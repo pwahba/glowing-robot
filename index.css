@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: black;
+}
+
+.banner {
+    background-color: #4D00FF;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+#small-minion {
+    height: 200px;
+    width: 120px;
+    filter: drop-shadow(1px 1px 1px darkblue);
+}
+
+.minion-section {
+    padding: 20px 50px;
+}
+
+#minion {
+    color: #4D00FF;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+a.blue {
+    color: blue;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url("../images/icon.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+}
